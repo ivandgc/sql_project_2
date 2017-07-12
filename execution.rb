@@ -41,14 +41,6 @@ class Execution
     6. Exit"
   end
 
-  def queries
-    attack_most_often
-    biggest_aggressive_loser
-    common_type_battle
-    common_battle_location
-    attacker_majority
-  end
-
   def character_deaths
     death = Game_Of_Thrones.new("./character_deaths.csv")
     death.get_columns
